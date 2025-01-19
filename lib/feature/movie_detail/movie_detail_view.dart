@@ -8,7 +8,8 @@ import 'package:movie_app/product/index.dart';
 part './widget/back_drop.dart';
 part './widget/icon_with_text.dart';
 
-class MovieDetailView extends ConsumerWidget {
+@immutable
+final class MovieDetailView extends ConsumerWidget {
   const MovieDetailView({
     required this.movie,
     super.key,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:movie_app/core/theme/theme_constant.dart';
 import 'package:movie_app/product/index.dart';
 
+@immutable
 final class CustomTheme {
   ThemeData get theme {
     return ThemeData(

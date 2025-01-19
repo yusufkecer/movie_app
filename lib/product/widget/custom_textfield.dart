@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:kartal/kartal.dart';
 import 'package:movie_app/product/index.dart';
 
 @immutable

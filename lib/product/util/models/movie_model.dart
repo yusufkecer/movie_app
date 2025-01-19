@@ -1,10 +1,11 @@
+import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'movie_model.g.dart';
 
 @JsonSerializable()
-class MovieModel {
-  MovieModel({
+class MovieModel extends Equatable {
+  const MovieModel({
     this.adult,
     this.backdropPath,
     this.originalLanguage,
@@ -72,4 +73,19 @@ class MovieModel {
       voteCount: voteCount ?? this.voteCount,
     );
   }
+
+  @override
+  List<Object?> get props => [
+        adult,
+        backdropPath,
+        originalLanguage,
+        originalTitle,
+        overview,
+        popularity,
+        posterPath,
+        releaseDate,
+        title,
+        voteAverage,
+        voteCount,
+      ];
 }

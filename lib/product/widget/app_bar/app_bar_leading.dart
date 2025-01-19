@@ -1,7 +1,7 @@
 part of 'custom_app_bar.dart';
 
 @immutable
-class _AppBarLeading extends StatelessWidget {
+final class _AppBarLeading extends StatelessWidget {
   const _AppBarLeading();
 
   @override

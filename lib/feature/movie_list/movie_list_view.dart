@@ -8,7 +8,8 @@ import 'package:movie_app/product/index.dart';
 
 part 'movie_list_view_model.dart';
 
-class MovieListView extends ConsumerStatefulWidget {
+@immutable
+final class MovieListView extends ConsumerStatefulWidget {
   const MovieListView({super.key});
 
   @override

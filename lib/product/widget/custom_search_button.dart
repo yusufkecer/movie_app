@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
 import 'package:movie_app/product/index.dart';
 
-class CustomSearchButton extends StatelessWidget {
+@immutable
+final class CustomSearchButton extends StatelessWidget {
   const CustomSearchButton({required this.onPressed, super.key});
   final void Function() onPressed;
 

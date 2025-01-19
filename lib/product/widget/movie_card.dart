@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:movie_app/product/util/index.dart';
 import 'package:movie_app/product/widget/index.dart';
 
-class MovieCard extends StatelessWidget {
+@immutable
+final class MovieCard extends StatelessWidget {
   const MovieCard({
     required this.imageUrl,
     required this.title,
