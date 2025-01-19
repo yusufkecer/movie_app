@@ -37,7 +37,7 @@ final class MovieDetailView extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    movie.title ?? '',
+                    movie.originalTitle ?? '',
                     style: context.general.textTheme.titleMedium,
                     textAlign: TextAlign.left,
                   ),

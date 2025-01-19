@@ -90,7 +90,7 @@ class _MovieListBody extends StatelessWidget {
                       goToDetail(movies[index]);
                     },
                     imageUrl: movies[index].posterPath ?? '',
-                    title: movies[index].title ?? '',
+                    title: movies[index].originalTitle ?? '',
                   );
                 },
               ),
