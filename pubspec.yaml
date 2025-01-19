@@ -1,0 +1,40 @@
+name: movie_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  logger: ^2.5.0
+  cached_network_image: ^3.4.1
+  http: ^1.2.2
+  kartal: ^4.1.0
+  json_annotation: ^4.9.0
+  equatable: ^2.0.3
+  envied: ^1.0.1
+  flutter_rating_bar: ^4.0.1
+  riverpod_annotation: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.14
+  very_good_analysis: ^7.0.0
+  envied_generator: ^1.0.1
+  riverpod_generator: ^2.6.3
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/env/
